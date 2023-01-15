@@ -11,7 +11,9 @@ import SwiftUI
 struct ModalWrapperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ModalWrapper {
+                RootAppView()
+            }
         }
     }
 }

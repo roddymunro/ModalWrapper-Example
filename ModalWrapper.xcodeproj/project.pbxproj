@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		7922DA7E2974540E00561F4B /* ModalWrapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA7D2974540E00561F4B /* ModalWrapperApp.swift */; };
-		7922DA802974540E00561F4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA7F2974540E00561F4B /* ContentView.swift */; };
+		7922DA802974540E00561F4B /* RootAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA7F2974540E00561F4B /* RootAppView.swift */; };
 		7922DA822974541000561F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7922DA812974541000561F4B /* Assets.xcassets */; };
 		7922DA852974541000561F4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7922DA842974541000561F4B /* Preview Assets.xcassets */; };
+		7922DA8C2974543F00561F4B /* ModalWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA8B2974543F00561F4B /* ModalWrapper.swift */; };
+		7922DA8E2974545800561F4B /* SheetModalWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA8D2974545800561F4B /* SheetModalWrapper.swift */; };
+		7922DA902974548800561F4B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA8F2974548800561F4B /* View+Ext.swift */; };
+		7922DA92297454C800561F4B /* ModalWrapperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA91297454C800561F4B /* ModalWrapperViewModel.swift */; };
+		7922DA942974554600561F4B /* Sheet1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA932974554600561F4B /* Sheet1.swift */; };
+		7922DA962974559000561F4B /* Sheet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA952974559000561F4B /* Sheet2.swift */; };
+		7922DA98297455AC00561F4B /* Sheet3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA97297455AC00561F4B /* Sheet3.swift */; };
+		7922DA9A297455C100561F4B /* Sheet4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA99297455C100561F4B /* Sheet4.swift */; };
+		7922DA9C297455D100561F4B /* Sheet5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA9B297455D100561F4B /* Sheet5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7922DA7A2974540E00561F4B /* ModalWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7922DA7D2974540E00561F4B /* ModalWrapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWrapperApp.swift; sourceTree = "<group>"; };
-		7922DA7F2974540E00561F4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7922DA7F2974540E00561F4B /* RootAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAppView.swift; sourceTree = "<group>"; };
 		7922DA812974541000561F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7922DA842974541000561F4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7922DA8B2974543F00561F4B /* ModalWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWrapper.swift; sourceTree = "<group>"; };
+		7922DA8D2974545800561F4B /* SheetModalWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModalWrapper.swift; sourceTree = "<group>"; };
+		7922DA8F2974548800561F4B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		7922DA91297454C800561F4B /* ModalWrapperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWrapperViewModel.swift; sourceTree = "<group>"; };
+		7922DA932974554600561F4B /* Sheet1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet1.swift; sourceTree = "<group>"; };
+		7922DA952974559000561F4B /* Sheet2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet2.swift; sourceTree = "<group>"; };
+		7922DA97297455AC00561F4B /* Sheet3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet3.swift; sourceTree = "<group>"; };
+		7922DA99297455C100561F4B /* Sheet4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet4.swift; sourceTree = "<group>"; };
+		7922DA9B297455D100561F4B /* Sheet5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,16 @@
 			isa = PBXGroup;
 			children = (
 				7922DA7D2974540E00561F4B /* ModalWrapperApp.swift */,
-				7922DA7F2974540E00561F4B /* ContentView.swift */,
+				7922DA7F2974540E00561F4B /* RootAppView.swift */,
+				7922DA8B2974543F00561F4B /* ModalWrapper.swift */,
+				7922DA91297454C800561F4B /* ModalWrapperViewModel.swift */,
+				7922DA8D2974545800561F4B /* SheetModalWrapper.swift */,
+				7922DA8F2974548800561F4B /* View+Ext.swift */,
+				7922DA932974554600561F4B /* Sheet1.swift */,
+				7922DA952974559000561F4B /* Sheet2.swift */,
+				7922DA97297455AC00561F4B /* Sheet3.swift */,
+				7922DA99297455C100561F4B /* Sheet4.swift */,
+				7922DA9B297455D100561F4B /* Sheet5.swift */,
 				7922DA812974541000561F4B /* Assets.xcassets */,
 				7922DA832974541000561F4B /* Preview Content */,
 			);
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7922DA802974540E00561F4B /* ContentView.swift in Sources */,
+				7922DA9C297455D100561F4B /* Sheet5.swift in Sources */,
+				7922DA92297454C800561F4B /* ModalWrapperViewModel.swift in Sources */,
+				7922DA802974540E00561F4B /* RootAppView.swift in Sources */,
+				7922DA962974559000561F4B /* Sheet2.swift in Sources */,
+				7922DA8E2974545800561F4B /* SheetModalWrapper.swift in Sources */,
+				7922DA9A297455C100561F4B /* Sheet4.swift in Sources */,
+				7922DA902974548800561F4B /* View+Ext.swift in Sources */,
+				7922DA942974554600561F4B /* Sheet1.swift in Sources */,
 				7922DA7E2974540E00561F4B /* ModalWrapperApp.swift in Sources */,
+				7922DA98297455AC00561F4B /* Sheet3.swift in Sources */,
+				7922DA8C2974543F00561F4B /* ModalWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
