@@ -9,13 +9,15 @@ import SwiftUI
 
 struct Sheet1: View {
     
-    @EnvironmentObject var modals: ModalWrapperViewModel
-    
     var body: some View {
         VStack {
             Text("This is sheet 1")
-            Button("Show sheet 2", action: modals.showSheet2)
-            Button("Show sheet 4", action: modals.showSheet4)
+            ModalButton(modal: .sheet(.sheet2)) {
+                Text("Show sheet 2")
+            }
+            ModalButton(modal: .sheet(.sheet4)) {
+                Text("Show sheet 4")
+            }
         }
     }
 }

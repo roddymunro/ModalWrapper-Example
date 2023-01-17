@@ -9,16 +9,24 @@ import SwiftUI
 
 struct RootAppView: View {
     
-    @EnvironmentObject var modals: ModalWrapperViewModel
-    
     var body: some View {
         VStack {
             Text("This is the root view")
-            Button("Show sheet 1", action: modals.showSheet1)
-            Button("Show sheet 2", action: modals.showSheet2)
-            Button("Show sheet 3", action: modals.showSheet3)
-            Button("Show sheet 4", action: modals.showSheet4)
-            Button("Show sheet 5", action: modals.showSheet5)
+            ModalButton(modal: .sheet(.sheet1)) {
+                Text("Show sheet 1")
+            }
+            ModalButton(modal: .sheet(.sheet2)) {
+                Text("Show sheet 2")
+            }
+            ModalButton(modal: .sheet(.sheet3)) {
+                Text("Show sheet 3")
+            }
+            ModalButton(modal: .sheet(.sheet4)) {
+                Text("Show sheet 4")
+            }
+            ModalButton(modal: .sheet(.sheet5)) {
+                Text("Show sheet 5")
+            }
         }
     }
 }

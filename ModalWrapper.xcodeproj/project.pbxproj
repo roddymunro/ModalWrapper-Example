@@ -20,6 +20,7 @@
 		7922DA98297455AC00561F4B /* Sheet3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA97297455AC00561F4B /* Sheet3.swift */; };
 		7922DA9A297455C100561F4B /* Sheet4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA99297455C100561F4B /* Sheet4.swift */; };
 		7922DA9C297455D100561F4B /* Sheet5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922DA9B297455D100561F4B /* Sheet5.swift */; };
+		79C4E4892977275800E1BE11 /* ModalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4E4882977275800E1BE11 /* ModalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7922DA97297455AC00561F4B /* Sheet3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet3.swift; sourceTree = "<group>"; };
 		7922DA99297455C100561F4B /* Sheet4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet4.swift; sourceTree = "<group>"; };
 		7922DA9B297455D100561F4B /* Sheet5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet5.swift; sourceTree = "<group>"; };
+		79C4E4882977275800E1BE11 /* ModalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				7922DA97297455AC00561F4B /* Sheet3.swift */,
 				7922DA99297455C100561F4B /* Sheet4.swift */,
 				7922DA9B297455D100561F4B /* Sheet5.swift */,
+				79C4E4882977275800E1BE11 /* ModalButton.swift */,
 				7922DA812974541000561F4B /* Assets.xcassets */,
 				7922DA832974541000561F4B /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				7922DA802974540E00561F4B /* RootAppView.swift in Sources */,
 				7922DA962974559000561F4B /* Sheet2.swift in Sources */,
 				7922DA8E2974545800561F4B /* SheetModalWrapper.swift in Sources */,
+				79C4E4892977275800E1BE11 /* ModalButton.swift in Sources */,
 				7922DA9A297455C100561F4B /* Sheet4.swift in Sources */,
 				7922DA902974548800561F4B /* View+Ext.swift in Sources */,
 				7922DA942974554600561F4B /* Sheet1.swift in Sources */,
